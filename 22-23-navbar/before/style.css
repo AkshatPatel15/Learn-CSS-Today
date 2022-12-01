@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: hsl(1, 0%, 20%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading{
+    padding: 0 .5rem;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    
+}
+
+.nav-list li{
+    padding:10px;
+
+}
+
+.nav-list li:hover{
+    background-color: hsl(1, 0%, 50%);
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+
+}
+

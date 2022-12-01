@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .footer{
+    text-align: center;
+    background-color: hsl(208, 100%, 40%);
+    padding: 1.8em;
+    color: white;
+}
+
+.section-about, .section-project, .section-contact{
+    padding: 2rem;
+}
+
+.p-about, .div-project, .form-contact{
+    padding: 2rem 1rem;
+}
+
+.section-skill{
+    background-color: hsl(208, 100%, 40%);
+    color: white;
+    padding: 2rem ;
+}
+
+.ul-skill{
+    padding: 2rem 1rem;
+    list-style: none;
+
+}
+
+.ul-skill li{
+    padding: .2em;
+    font-style: italic;
+}
+
+.form-contact input{
+    padding: 1em;
+}
+
+.form-contact textarea{
+    padding: 1em;
+    resize: none;
+}
+
+.btn{
+    padding: .5em 1em;
+    border: 1px solid black;
+    border-radius: .3em;
+}
+
+.btn-submit{
+    background-color: hsl(208, 100%, 30%);
+    color: white;
+}
+
+.btn-submit:hover{
+    box-shadow: 0 0 5px 0 hsl(208, 100%, 30%);
+}
+

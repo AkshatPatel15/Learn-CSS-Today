@@ -1,0 +1,17 @@
+.header-title,.footer-title
+{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+article > h2{
+    font-family: Arial, Helvetica, sans-serif}
+
+.italic{
+    font-style: italic;
+}
+
+.opacity{
+    opacity: 50%;
+}

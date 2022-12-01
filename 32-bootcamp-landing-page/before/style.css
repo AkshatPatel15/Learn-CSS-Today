@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.header{
+    background-image: url("./img/header_image.jpg");
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.nav{
+    background-color: hsl(122, 30%, 10%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav img{
+    height: 35px;
+    padding-left: 10px;
+
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    color: white;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.nav ul li:hover{
+    color: hsl(122, 10%, 90%);
+    cursor: pointer;
+}
+
+.btn{
+    border: 1px solid hsl(122, 10%, 90%);
+    border-radius: 1em;
+    padding: .2rem .7rem;
+}
+
+.btn-success{
+    color: white;
+    background-color: hsl(200, 100%, 50%)
+    ;
+    border: 1px solid hsl(200, 70%, 3%);
+    
+}
+
+
+
+.div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    list-style: none;
+    position: relative;
+
+}
+
+.div *{
+    margin: 10px;
+}
+
+.div h1{
+    font-size: 3rem;
+}
+
+.div h3{
+    font-size: 1rem;
+    top: 0px;
+}
+
+.section{
+    padding: 2rem;
+}
+
+.curriculum-header{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+}
+
+
+.curriculum{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    row-gap: 10px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.curriculum div{
+    display: flex;
+    align-items: center;
+}
+
+.curriculum div img {
+    width: 50px;
+    margin-right: 1rem;
+} 
+
+.free-section{
+    display: flex;
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free-section h1{
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+
+.form{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+.form label {
+    color: black;
+    font-weight: bold;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+    outline: none;
+    border: 1px solid #1B2522;
+    border-radius: .3em;
+    padding: .5em;
+    color: inherit;
+    font-family: inherit;
+  }
+
+  .form textarea {
+    resize: vertical;
+    min-height: 75px;
+    max-height: 200px;
+  }
+
+  .form input:focus,
+  .form textarea:focus {
+    border-color: #0AF;
+  }
+  
+  .btn-container {
+    text-align: end;
+  }
+  
+  .btn-square {
+    border-radius: .3em;
+  }
+
+  .scroll-down-icon {
+    position: absolute;
+    bottom: 1rem;
+    width: 30px;
+  }

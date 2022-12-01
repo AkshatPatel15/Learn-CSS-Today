@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.i{
+    padding: .5em .5em;
+    font-size: 1rem;
+    margin: 10px 5px;
+    border: 1px solid hsl(0, 0, 30%);
+    outline: none;
+}
+
+.i:focus{
+    box-shadow: 0 0 5px 0 hsl(0, 0%, 30%);
+}
+
+.i.success{
+    border: 1px solid hsl(114, 70%, 40%);
+}
+
+.i.success:focus{
+    box-shadow: 0 0 5px 0 hsl(114, 70%, 40%) ;
+}
+
+.i.error{
+    border: 1px solid hsl(359, 100%, 50%);
+}
+
+.i.large{
+    font-size: 1.25em;
+}
+
+.i.small{
+    font-size: .75em;
+}
+
+.i.disable{
+    
+}
